@@ -12,15 +12,9 @@ import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
-import android.hardware.SensorListener;
 import android.hardware.SensorManager;
-import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Display;
-import android.view.Surface;
-import android.view.WindowManager;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Exercice3 extends AppCompatActivity {
@@ -42,7 +36,7 @@ public class Exercice3 extends AppCompatActivity {
         manager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         textviewx=(TextView)findViewById(R.id.textView1);
         textviewa=(TextView)findViewById(R.id.textView4);
-        textviewy=(TextView)findViewById(R.id.textView2);
+        textviewy=(TextView)findViewById(R.id.longitude);
 
 
 

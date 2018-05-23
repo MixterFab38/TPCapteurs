@@ -8,7 +8,6 @@
 package com.example.rodetf.tpcapteurs;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -37,7 +36,7 @@ public class Exercice4 extends AppCompatActivity {
         manager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         textviewx=(TextView)findViewById(R.id.textView1);
         textviewa=(TextView)findViewById(R.id.textView4);
-        textviewy=(TextView)findViewById(R.id.textView2);
+        textviewy=(TextView)findViewById(R.id.longitude);
         textviewz=(TextView)findViewById(R.id.textView3);
         direction=(TextView)findViewById(R.id.Direction);
 
